@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+grep '2PiTHz' OUTCAR |cut -c 47-57 >> freq.txt
